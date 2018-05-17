@@ -5,6 +5,8 @@ const axios = require('axios');
 const FormData = require('form-data');
 const process = require('process');
 
+require('dotenv').config();
+
 const WEBHOOK_URL = process.env.WEBHOOK_URL;
 
 function lookSamePromise(a, b, options={}) {
