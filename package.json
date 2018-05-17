@@ -1,0 +1,18 @@
+{
+  "name": "acrnm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async-file": "^2.0.2",
+    "axios": "^0.18.0",
+    "form-data": "^2.3.2",
+    "looks-same": "^3.3.0",
+    "puppeteer": "^1.4.0"
+  }
+}
